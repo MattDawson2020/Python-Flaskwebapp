@@ -1,4 +1,4 @@
-from flask import Flask
+from flask import Flask, render_template
 #import flask class object from library
 
 app = Flask(__name__) 
@@ -7,12 +7,12 @@ app = Flask(__name__)
 @app.route('/')
 #define the root route
 def home():
-    return "Website content goes here!"
+    return render_template("home.html")
 # it seems like the function being declared immediately below the route is what links the route to the controller/action
 
 @app.route('/about')
 def about():
-    return "Details go here"
+    return render_template("about.html")
 
 if __name__ == "__main__":
     app.run(debug=True)
