@@ -1,6 +1,6 @@
 ## 🐍 Python-Flaskwebapp
 
-- Fourth example [Udemy course](https://www.udemy.com/course/the-python-mega-course/)
+- Fourth example project from [Udemy course](https://www.udemy.com/course/the-python-mega-course/)
 - Simple webapp using Flask, aimed to show how easy it is to build webapps with Python as the backend
 - First use of Python virtual environment to allow isolated installation to handle dependencies
 
